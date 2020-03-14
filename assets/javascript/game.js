@@ -7,19 +7,19 @@ var computerOptions = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 
 var computerGuess = computerOptions[Math.floor(Math.random() * computerOptions.length)];
 
-window.onload = function() {
 
-    countGuessesLeft();
 
-    function countGuessesLeft() {
-        document.querySelector("#guessesLeft").innerHTML = "Guesses Left: " + guessesLeft;
+     function countGuessesLeft() {
+        document.querySelector("#guessesLeft").innerHTML = "Guesses Remaining: " + guessesLeft;
     }
     
+    countGuessesLeft();
+    
 
-}
+
 
 function guessesSoFar() {
-	document.querySelector("#currentGuess").innerHTML = "Your Guesses so far: " + userLetter.join(' ');
+	document.querySelector("#currentGuess").innerHTML = "Your current guesses: " + userLetter.join(' ');
 }
 
 

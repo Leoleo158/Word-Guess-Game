@@ -1,0 +1,38 @@
+.intro {
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 30px;
+    background-color: white;
+    
+    
+}
+
+body {
+    
+    background-image: url(../images/background.jpeg);
+    width: 100%;
+}
+
+
+
+.footer {
+    right: 0;
+	left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1rem;
+    position: absolute;
+}
