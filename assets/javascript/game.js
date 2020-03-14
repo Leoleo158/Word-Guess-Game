@@ -13,7 +13,7 @@ var computerGuess = computerOptions[Math.floor(Math.random() * computerOptions.l
         document.querySelector("#guessesLeft").innerHTML = "Guesses Remaining: " + guessesLeft;
     }
     
-    countGuessesLeft();
+
     
 
 
@@ -36,6 +36,8 @@ document.onkeyup = function (event) {
         var userGuesses = String.fromCharCode(event.keyCode).toLowerCase();
         userLetter.push(userGuesses);
         guessesSoFar();
+        countGuessesLeft();
+
 
         
     if (userGuesses === computerGuess) {

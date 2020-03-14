@@ -1,6 +1,11 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 .intro {
     text-align: center;
-    background-color: white;
+    background-color: whitesmoke;
     width: 90%;
     margin: 20px auto;
     font-size: 20px;
@@ -10,9 +15,9 @@
 .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
-    font-size: 30px;
-    background-color: white;
+    font-size: 18px;
+    background-color: whitesmoke;
+    margin-bottom: 0 auto;
     
     
 }
@@ -23,6 +28,9 @@ body {
     width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
 
 
 .footer {
